@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schema.kunkun.sh",
+  "name": "nostr-generate-keypair",
+  "version": "1.0.0",
+  "license": "CC0-1.0",
+  "type": "module",
+  "kunkun": {
+    "name": "Nostr Generate Keypair",
+    "shortDescription": "Generate a random Nostr Keypair",
+    "longDescription": "Generate a random Nostr Keypair",
+    "identifier": "nostr-generate-keypair",
+    "permissions": [
+      "clipboard:write-text"
+    ],
+    "demoImages": [],
+    "icon": {
+      "type": "iconify",
+      "value": "mdi:magic"
+    },
+    "headlessCmds": [
+      {
+        "name": "Nostr Generate Keypair",
+        "main": "dist/index.js",
+        "cmds": []
+      }
+    ]
+  },
+  "scripts": {
+    "dev": "bun build.ts dev --headless",
+    "build": "bun build.ts"
+  },
+  "dependencies": {
+    "@kksh/api": "0.1.5",
+    "i18next": "^23.15.1",
+    "nostr-tools": "^2.10.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "./dist",
+    ".gitignore"
+  ]
+}
