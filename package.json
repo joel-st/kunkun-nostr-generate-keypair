@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.kunkun.sh",
-  "name": "nostr-generate-keypair",
+  "name": "kunkun-ext-nostr-generate-keypair",
   "version": "1.0.0",
   "license": "CC0-1.0",
   "type": "module",
