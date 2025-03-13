@@ -41,7 +41,20 @@
     "typescript": "^5.0.0"
   },
   "files": [
-    "./dist",
+    "dist",
+    "src",
+    "package.json",
+    "readme.md",
     ".gitignore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joel-st/kunkun-nostr-generate-keypair"
+  },
+  "keywords": [
+    "nostr",
+    "keypair",
+    "generate",
+    "nostr-tools"
   ]
 }
